@@ -1,0 +1,227 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    width: 80%;
+    height: 100px;
+    background-color: #FEE2B0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #364D59;
+}
+
+.main{
+    width: 80%;
+    height: 500px;
+    background-color: blueviolet;
+    background: url("./images/notary.webp");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    width: 250px;
+    height: 200px;
+    padding: .5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 80%;
+    padding: .5rem;
+    border: 1px solid #C8C8C8;
+}
+
+.button{
+    width: 87%;
+    background-color: #FEE2B0;
+    padding: .5rem;
+    border: none;
+}
+
+.button:hover{
+    background-color: #364D59;
+    color: white;
+}
+
+.title-container{
+    color: white;
+}
+
+.image-icon{
+    width: 50px;
+    height : 50px;
+    background: url('./images/bank_icon.webp');
+    background-size: 100% 100%;
+}
+.image-icon-two{
+    width: 50px;
+    height : 50px;
+    background: url('./images/bis-low.png');
+    background-size: 100% 100%;
+}
+
+.image-icon-three{
+    width: 50px;
+    height : 50px;
+    background: url('./images/rights._aw.png');
+    background-size: 100% 100%;
+}
+
+.practice-areas-container{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.practice-areas-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.block-text{
+    font-size: 13px;
+}
+
+.block-practiceAreas{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: .5rem;
+}
+
+.practice-areas-header{
+    text-align: center;
+}
+
+.customers-container{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.customer-name-title{
+    color:  #364D59;
+}
+
+.customer-one{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('./images/customer-one.jpg');
+    background-size: 100% 100%;
+}
+.customer-two{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('./images/customer-two.jpg');
+    background-size: 100% 100%;
+}
+
+.customer-three{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    background: url('./images/customer-three.jpg');
+    background-size: 100% 100%;
+}
+
+.customer-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: .5rem;
+    text-align: center;
+    background-color: #DFE0E1;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background: url('./images/footer.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.footer-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.footer-text{
+    width: 400px;
+    text-align: center
+}
+
+.social-link{
+    color:rgb(205, 217, 224);
+    margin-left: 20px;
+  
+}
+
+.social-link:hover{
+    color: #FEE2B0;
+}
+
+.navbar-footer{
+    color: white;
+}
